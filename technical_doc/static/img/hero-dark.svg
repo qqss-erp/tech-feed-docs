@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="720" viewBox="0 0 1920 720" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="dg1" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#071021" />
+      <stop offset="100%" stop-color="#071c2b" />
+    </linearGradient>
+    <linearGradient id="dg2" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#073547" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#042d3a" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <!-- dark background -->
+  <rect width="100%" height="100%" fill="url(#dg1)" />
+
+  <!-- neon circuit lines -->
+  <g fill="none" stroke-linecap="round" stroke-width="2.8">
+    <path d="M220 160 C 300 120, 400 120, 480 160" stroke="#0fe0d8" stroke-opacity="0.9"/>
+    <path d="M220 200 C 300 240, 400 240, 480 200" stroke="#24b6ff" stroke-opacity="0.8"/>
+    <circle cx="220" cy="160" r="5" fill="#08f0dd"/>
+    <circle cx="480" cy="160" r="5" fill="#24b6ff"/>
+  </g>
+
+  <!-- right technical lines -->
+  <g stroke="#00ffd0" stroke-opacity="0.72" stroke-width="3.2" fill="none">
+    <path d="M680 120 L880 120 L1060 220 L1360 220 L1560 180" />
+    <path d="M680 180 L820 180 L1040 260 L1320 260 L1540 220" stroke-width="2.2" opacity="0.6"/>
+  </g>
+
+  <!-- glowing nodes -->
+  <g>
+    <circle cx="880" cy="120" r="8" fill="#03eac2" opacity="0.95" />
+    <circle cx="1060" cy="220" r="7" fill="#26d0ff" opacity="0.9" />
+  </g>
+
+  <!-- soft right glow -->
+  <g>
+    <ellipse cx="1500" cy="360" rx="520" ry="240" fill="#052f3a" opacity="0.6" />
+  </g>
+
+  <!-- logo area left (dark) -->
+  <g transform="translate(80,170)">
+    <rect x="0" y="0" width="520" height="220" rx="12" fill="#051320" fill-opacity="0.6" stroke="#08323c" />
+     <text x="30" y="90" font-family="'Segoe UI', Roboto, Helvetica, Arial" font-size="36" fill="#ffffff" font-weight="800">DMeX Solutions</text>
+     <text x="30" y="140" font-family="'Segoe UI', Roboto, Helvetica, Arial" font-size="36" fill="#ffffff" font-weight="700">Technical Feed</text>
+  </g>
+
+  <!-- bottom subtle grid -->
+  <g stroke="#032a35" stroke-opacity="0.25" stroke-width="1">
+    <path d="M0 640 H1920" />
+    <path d="M0 600 H1920" />
+  </g>
+
+</svg>
