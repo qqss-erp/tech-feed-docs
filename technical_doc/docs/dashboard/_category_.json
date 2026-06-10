@@ -1,0 +1,9 @@
+{
+  "label": "Dashboard",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Dashboard Technical Docs",
+    "description": "Technical implementation and configuration guides for dashboard modules."
+  }
+}
