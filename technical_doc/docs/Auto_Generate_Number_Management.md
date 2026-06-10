@@ -1,4 +1,4 @@
-# Auto-Generate Number Management - Technical Design Document
+# Auto-Generate Number Management
 
 ## 1. Overview
 
@@ -168,7 +168,9 @@ or
 - A
 
 ## Frontend Flow
-![flow-1-diagram.png](../static/img/flow-1-diagram.png)
+<p align="center">
+  <img src="../static/img/flow-1-diagram.png" alt="Flow 1 Diagram" height="300" width="150" />
+</p>
 
 ### Steps
 1. User opens transaction screen.
@@ -228,8 +230,9 @@ Module Configuration
 Function Type Configuration
 
 ## Frontend Flow
-![flow-2-diagram.png](../static/img/flow-2-diagram.png)
-
+<p align="center">
+  <img src="../static/img/flow-2-diagram.png" alt="Flow 1 Diagram" height="230" width="200" />
+</p>
 ### Scenario 1
 
 - Module Setting Enabled
@@ -271,7 +274,10 @@ Same as Flow 1.
 - PO
 
 ## Frontend Flow
-![flow-3-diagram.png](../static/img/flow-3-diagram.png)
+<p align="center">
+  <img src="../static/img/flow-3-diagram.png" alt="Flow 1 Diagram" height="300" width="150" />
+</p>
+
 ### Steps
 
 1. Call: `/auto-generate-type-settings/search/true?functionType=PO`
